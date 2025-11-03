@@ -6,6 +6,12 @@ using namespace std;
 int globalVar = 100; /* Variable declared outside any function
  and accessible from any part of the source file */
 
+ // Example function with parameter Variables
+ void exampleFunction(int paramVar) /* Variable declared in the function brackets. Used to pass values to functions */
+ {
+     cout << "Parameter Variable: " << paramVar << endl;
+ }
+
 int main()
 {
     int age;
@@ -23,6 +29,9 @@ int main()
     // Static Variable
     static int staticVar = 0; /* A variable that retains its value
     between function calls */
+
+    // Calling the example function with a parameter variable
+    exampleFunction(25);
 
     // Displaying the values of different variables
     cout << "Global Variable: " << globalVar << endl;
