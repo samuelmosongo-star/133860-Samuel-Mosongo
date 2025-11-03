@@ -1,10 +1,10 @@
-// This is my first c++ program
-#include <iostream> // Inc lude the input-output stream library
+// Hello World program, in C++
+#include <iostream> 
 using namespace std;
 int main()
 {
-    cout << "Hello, World!" << endl; // Output a greeting message
-    cout << "This is my first C++ program" << endl; // Output another message
+    cout << "Hello, World!" << endl; 
+    cout << "This is my first C++ program" << endl; 
 
-    return 0; //Indicate that the program ended successfully
+    return 0; 
 }

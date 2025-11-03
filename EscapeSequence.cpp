@@ -12,4 +12,3 @@ int main()
     cout << "\a Testing the alert operator \n";
     return 0; 
 }
-
