@@ -6,11 +6,11 @@ using namespace std;
 int globalVar = 100; /* Variable declared outside any function
  and accessible from any part of the source file */
 
- // Example function with parameter Variables
- void exampleFunction(int paramVar) /* Variable declared in the function brackets. Used to pass values to functions */
- {
-     cout << "Parameter Variable: " << paramVar << endl;
- }
+// Example function with parameter Variables
+void exampleFunction(int paramVar) /* Variable declared in the function brackets. Used to pass values to functions */
+{
+    cout << "Parameter Variable: " << paramVar << endl;
+}
 
 int main()
 {
