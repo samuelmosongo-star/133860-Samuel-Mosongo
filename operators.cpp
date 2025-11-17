@@ -27,9 +27,14 @@ int main() {
     cout << " 3!=3 = " << (3!=3) << endl;  
     cout << " !(4>=3) = " << !(4>=3) << endl;
 
-    // BOOLEAN OPERATORS
+    // BOOLEAN OPERATORS (AND &&, OR ||)
     cout << "  true && true = " << ((3>2) && (4 >= 2)) << endl;
-    cout << " true && false = " << ((3>2) && (4 >= 2)) << endl;
+    cout << " true && false = " << ((3>2) && (4 <= 2)) << endl;
     cout << " false && true = " << ((3<2) && (4 >= 2)) << endl;
     cout << " false && false = " << ((3<2) && (4 <= 2)) << endl;    
+    // Boolean OR
+    cout << "  true || true = " << ((3>2) || (4 >= 2)) << endl;
+    cout << " true || false = " << ((3>2) || (4 <= 2)) << endl;
+    cout << " false || true = " << ((3<2) || (4 >= 2)) << endl;
+    cout << " false || false = " << ((3<2) || (4 <= 2)) << endl;
 }
